@@ -1,0 +1,113 @@
+# Copyright (C) 2015 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/authorizenet\n"
+"POT-Creation-Date: 2015-01-16 17:51:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: an-gateway.php:9 an-gateway.php:10 an-gateway.php:319
+msgid "Authorize.Net"
+msgstr ""
+
+#: an-gateway.php:93
+msgid "The selected payment method could not be found."
+msgstr ""
+
+#: an-gateway.php:117 an-gateway.php:216
+msgid "You are now being redirected."
+msgstr ""
+
+#: an-gateway.php:166
+msgid ""
+"You must turn off TEST MODE on your Authorize.Net Account to process "
+"transactions."
+msgstr ""
+
+#: an-gateway.php:182
+msgid "Redirecting to AuthorizeNet"
+msgstr ""
+
+#: an-gateway.php:322
+msgid "API Login ID"
+msgstr ""
+
+#: an-gateway.php:327
+msgid "Transaction Key"
+msgstr ""
+
+#: an-gateway.php:332
+msgid "Sandbox Mode"
+msgstr ""
+
+#: an-gateway.php:335
+msgid "Enable"
+msgstr ""
+
+#: an-gateway.php:340
+msgid "Payment Form"
+msgstr ""
+
+#: an-gateway.php:343
+msgid "Secure Connection"
+msgstr ""
+
+#: an-gateway.php:345
+msgid "Force SSL Page"
+msgstr ""
+
+#: an-gateway.php:358
+msgid "Invalid Login ID Given."
+msgstr ""
+
+#: an-gateway.php:365
+msgid "Invalid Transaction Key Given."
+msgstr ""
+
+#: an-gateway.php:387
+msgid "Gateway Configuration Error: %s"
+msgstr ""
+
+#: authorizenet.php:37
+msgid "AppThemes Authorize.Net Payment Gateway could not run."
+msgstr ""
+
+#: authorizenet.php:40
+msgid ""
+"AppThemes Authorize.Net Payment Gateway does not support the current theme. "
+"Please use a compatible AppThemes Product."
+msgstr ""
+
+#: select-form.php:12
+msgid "Select one of the saved cards below:"
+msgstr ""
+
+#: select-form.php:16
+msgid "Select"
+msgstr ""
+
+#: select-form.php:17
+msgid "Card"
+msgstr ""
+
+#: select-form.php:18
+msgid "Delete"
+msgstr ""
+
+#: select-form.php:29
+msgid "Card ending in %s"
+msgstr ""
+
+#: select-form.php:35
+msgid "Add new credit card"
+msgstr ""
+
+#: select-form.php:41
+msgid "Use this Payment Method"
+msgstr ""

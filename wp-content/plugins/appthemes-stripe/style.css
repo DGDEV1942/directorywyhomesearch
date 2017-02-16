@@ -1,0 +1,22 @@
+#stripe-payment-form.modal {
+	text-align: center;
+}
+
+#stripe-payment-form .form-field{ 
+	clear: both;
+}
+
+#stripe-payment-form .multi-line-field {
+	float: left;
+	margin-right: 20px;
+}
+
+#stripe-payment-form .card-city {
+	width: 250px;
+}
+
+#stripe-payment-form .card-zip, 
+#stripe-payment-form .card-address-line1,
+#stripe-payment-form .card-address-line2 {
+	width: 313px;
+}

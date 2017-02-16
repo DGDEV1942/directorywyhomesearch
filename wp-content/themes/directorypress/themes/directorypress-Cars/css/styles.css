@@ -1,0 +1,52 @@
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+	a, h1, h2, h3, h4 { color:#666666; }
+	.itembox h2, .itembox h1 {color: #fff; background: #7d7c7d; }
+
+/* =============================================================================
+   Header Styles
+   ========================================================================== */	 
+
+	body { background:#f7f7f7; margin:0px; padding:0px; }
+	#header { background: url(../images/_header_logo.gif) no-repeat; height:200px;}	
+  	#banner {display:none; }
+	#logo {  margin-top:65px; margin-left:15px;  }
+	
+/* =============================================================================
+   Menu Styles
+   ========================================================================== */
+ 
+	.menu { background: #7d7c7d url(../images/menu.gif) top left repeat-x; height:50px;  }
+	.menu li, .menu li:hover  { background:url(../images/menu_spacer.png) top right no-repeat;}	
+	.menu li a {color: #fff;} 
+
+/* =============================================================================
+   Sidebar Styles
+   ========================================================================== */
+ 
+ 	.category li a {background: transparent url(../images/icon-category.png) no-repeat 5px 6px;  }
+	.category li a:hover {background: transparent url(../images/icon-category-hover.png) no-repeat 5px 6px; ; }
+	 
+/* =============================================================================
+   Home Styles
+   ========================================================================== */
+   
+	#homeCategories ul li  { background: url('../images/folder.png') no-repeat 8px 6px !important; }
+  
+/* =============================================================================
+   Footer Styles
+   ========================================================================== */
+
+	#footer { background: #7d7c7d; }
+	#footer h3 {color: #fff; }
+
+/* =============================================================================
+   Slider 1 Styles
+   ========================================================================== */
+	
+	#siteFeature #tabContainer a:link, #siteFeature #tabContainer a:visited { background: transparent url(../images/_slider_inactive.png) no-repeat; }
+	#siteFeature #tabContainer a:hover{ background:#fff url(../images/_slider_inactive1.png) no-repeat; }	
+	

@@ -1,0 +1,4 @@
+Modified		changelog.txt
+Modified		functions.php
+Modified		style.css
+Modified		vantage.pot

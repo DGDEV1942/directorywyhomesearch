@@ -1,0 +1,228 @@
+/* =============================================================================
+   DirectoryPress 7+ Developed by Mark Fail
+   ========================================================================== */
+
+   * { margin: 0; padding: 0; outline: 0; }
+   
+	body { background:#efefef; margin-top:10px; } 	
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+	ol,ul { list-style:none; }
+	h1,h2,h3,h4 { color: #097fb7; }
+
+	.greybg {	background: transparent url(../PPT/img/content_pane-gradient.gif) bottom left repeat-x; }
+	.texttitle { font-size:11px; color:#ccc; padding:0px; margin:0px; letter-spacing:1px; text-transform:uppercase; }
+	
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+	a { color: #097fb7; text-decoration: none; }
+	a:hover { cursor: pointer; text-decoration: none; }
+	a img { border: 0; }
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+	#header {  background:#fff; }
+	#page { background:white; margin-bottom:0px; }  
+	#logo { width:450px; }
+	#banner { margin-top:10px; } 	
+
+/* =============================================================================
+   menu + sub menu  
+   ========================================================================== */
+
+	.menu {   background: #666; height:50px;} 
+	.menu li { 	background:url(images/menu_spacer.png) top right no-repeat;  }
+	.menu li a {color: #EEE; font-size:16px;   line-height:50px;   }
+	.menu li ul li { min-height:25px !important; }
+	.menu li ul a, #hpages li ul a, .submenu li ul a, .category li ul a, .submenu_account li ul a { line-height:normal; } 
+	
+	#searchBox { padding:7px; float:left; }
+	#searchBox .searchBtn { padding:0px; margin:0px; border:0px; width:33px; height:29px; background:url(images/searchbtn.png) no-repeat; border:0px !important; padding:0px; cursor:pointer; float:left; }
+	#searchBox #catsearch, #searchBox #s { float:left; margin-right:6px; }
+	#searchBox a { margin-left:15px; padding-top:10px; float:left; text-decoration:underline; }	
+	
+	#AdvancedSearchBox h2 { color:#666; }
+ 	.AdvancedSearchBox { border: 1px solid #ddd;  padding:10px; background:#efefef; }
+	.AdvancedSearchBox h2 { font-size:20px; }
+	.AdvancedSearchBox label { font-size:16px; color:#666; }
+ 
+	
+/* =============================================================================
+   content
+   ========================================================================== */
+	
+	#content {    } 
+	.left3cols,.middle3cols,.right3cols { margin-top:10px; }
+
+/* =============================================================================
+   box styles / sidebar / main content / widget
+   ========================================================================== */
+
+	.itembox { border: 2px solid #E2E2E2;clear: both;margin: 0px 0px 15px;padding: 0px;}	
+	.itembox h2,.itembox h1 {   color: #404040;font-size: 17px;  padding: 5px 3px 5px 15px; margin:0px;	
+	border:1px solid #fff;
+		filter					: progid:DXImageTransform.Microsoft.gradient(startColorStr='#efefef', EndColorStr='#e0e0e0');
+	background-image		: -webkit-gradient(linear, left top, left bottom, color-stop(0, #efefef), color-stop(1, #e0e0e0));
+	background-image		: -webkit-linear-gradient(top, #efefef 0%, #e0e0e0 100%);
+	background-image		:    -moz-linear-gradient(top, #efefef 0%, #e0e0e0 100%);
+	background-image		:     -ms-linear-gradient(top, #efefef 0%, #e0e0e0 100%);
+	background-image		:      -o-linear-gradient(top, #efefef 0%, #e0e0e0 100%);
+	background-image		:         linear-gradient(top, #efefef 0%, #e0e0e0 100%);
+	border-bottom:1px solid #ddd;
+	}
+	 
+	.itemboxinner { padding:10px; }
+
+/* =============================================================================
+   footer
+   ========================================================================== */
+
+	#footer { background: #666 ; }
+	#footer h3 { color:#ddd}
+	#footer p { color:#efefef; }
+	#copyright { font-weight:bold;  }
+	#copyright p { padding-left:15px; color:#eee; }
+	#copyright p a { color:#eee; text-decoration:underline; }
+	.recentarticles a { color:#ffffff; }
+	#footer .first_col { color:#ffffff; }
+ 	
+/* =============================================================================
+   _sidebar.php
+   ========================================================================== */ 
+
+	#sidebar { background:#fff;   }
+	#sidebar .photo { float:right; }
+	.widget li a, .category li a { background: url(images/pointer.gif) no-repeat 10px center;border-bottom:1px solid #ddd; display: block;font-size: 12px;padding: 5px 5px 5px 25px;text-decoration: none; }	
+	.widget li a:hover, .category li a:hover {background:#efefef url(images/pointer.gif) no-repeat 10px center;}
+ 
+	.category li .sub a { background:white url(images/pointer-active.gif) no-repeat 10px center; }
+	.category li .sub a:hover { background: #fffcee url(images/pointer-active.gif) no-repeat 10px center; } 	
+	.category li .subsub a { background:#d9ffde; }
+	.category li .subsub a:hover { background: #d9ffde url(images/pointer-active.gif) no-repeat 10px center; } 
+ 
+/* =============================================================================
+   _gallerypage.php
+   ========================================================================== */
+   
+  	.searchresultsbar { padding:10px; background:#efefef; color:#999; } 
+	.searchresultsbar a { color:#666; }
+	#PPTGalleryPage .minH { min-height:140px; }
+
+	ol.pag_switch {	font-size: 0px;}
+	ol.pag_switch li {	display: inline-block;}
+	ol.pag_switch a.pag_switch_button {	background: #e6e6e6 url('images/pag-bg.png') repeat-x;	border: 1px solid #bbbbbb;	border-left: none;	display: inline-block;	margin: 0px;	padding: 3px 6px 1px 6px;	-webkit-box-shadow: 0px 1px 0px #ffffff;	-moz-box-shadow: 0px 1px 0px #ffffff;	box-shadow: 0px 1px 0px #ffffff;}
+	ol.pag_switch a.selected.pag_switch_button, ol.pag_switch a.pag_switch_button:active {	background: #d0d0d0 url('images/pag-bg-selected.png') repeat-x;}
+	ol.pag_switch li:first-child a.pag_switch_button {	border-left: 1px solid #bbbbbb;	-webkit-border-top-left-radius: 4px;	-webkit-border-bottom-left-radius: 4px;	-moz-border-radius-topleft: 4px;	-moz-border-radius-bottomleft: 4px;	border-top-left-radius: 4px;	border-bottom-left-radius: 4px;}
+	ol.pag_switch li:last-child a.pag_switch_button {	-webkit-border-top-right-radius: 4px;	-webkit-border-bottom-right-radius: 4px;	-moz-border-radius-topright: 4px;	-moz-border-radius-bottomright: 4px;	border-top-right-radius: 4px;	border-bottom-right-radius: 4px;}
+	
+	#subcategories {  border-top:1px solid #ddd; margin:8px; }
+	#subcategories ul {  margin-left:-15px; }
+	.dropui { margin-right:10px; margin-top:-2px;}
+	
+	/* list style */
+	ul.items.three_columns li {	width: 200px;	height: 280px;}
+		 
+	.items { 	margin-bottom: 30px;}
+	.items li {	margin-left: 15px;	margin-top: 20px;	display: inline-block; float:left;	overflow: hidden; }
+	.items .preview {	margin-bottom: 10px; }
+	.items li .frame {  margin-left:auto; margin-right:auto; display:block; max-height:200px; max-width:200px; }
+	.items a.title {	font-size: 14px;	font-weight: bold;	color: #333333;	margin: 5px; }
+	
+	.items p {	margin: 5px;}
+	.items .actions { display:none; }	
+	
+	/* tags */
+	.items .tags1 { display:none; }
+	ul.items.list_style .tags1 { display:block; }
+	
+	ul.items.list_style {	margin: 0px;}
+	ul.items.list_style li {	background: #fafafa;	margin: 0px;	 border-top: 1px solid #dddddd;	display: block;	overflow: hidden; float:none; }
+	ul.items.list_style li:nth-child(odd) { background: #ffffff; } /* odd items */
+	ul.items.list_style a.title {	margin: 0px 0px; }
+	ul.items.list_style .tagline { font-weight:bold; }
+	ul.items.list_style .preview {	width: 160px;	height: 100px;	margin: 0px;	margin-right: 20px;	float: left;	margin-bottom:10px;}
+	ul.items.list_style li:hover {	background: #efefef;}
+	 
+	ul.items.list_style .actions { display:block; }
+	
+	/* page navigation styles */
+	ul.paginationD { padding:0px; border:0px; float:right; }
+	
+	/* icons for new features */
+	#PPTGalleryPage .iconss { text-decoration:underline; padding-left:20px; background:url(images/icons/save.png) no-repeat; padding-right:5px; }
+	#PPTGalleryPage .iconvss { text-decoration:underline; padding-left:20px; background:url(images/icons/vsave.png) no-repeat;   padding-right:5px; }
+	#PPTGalleryPage .iconemail { text-decoration:underline; padding-left:20px; background:url(images/icons/email.png) no-repeat; }	
+	#PPTGalleryPage .iconemail:hover { background-position:0px -18px; }
+	#PPTGalleryPage .iconvss:hover { background-position:0px -17px; }
+	#PPTGalleryPage .iconss:hover { background-position:0px -17px; }
+	
+	/* featured listing styles */
+	.featuredlisting { background: #E2F2CE !important;	color: #466840 !important;	border-color: #BFE098 !important; }
+	.three_columns .featuredlisting { background: inherit !important; } 
+    .featuredlisting .title { color:#006600 !important; }
+	.featuredlisting .frame { background: #fff; border: 1px solid #BFE098; border-top: 1px solid #BFE098; }
+	
+	/* 3 column extras */
+	.middle3cols ul.items.three_columns li {width: 160px; height: 280px; }
+	
+	/* star rating system */
+	#PPTGalleryPage .ratingblock, #PPTHomePage .ratingblock {  margin-left:30px;  }
+	
+	.stwpvp { max-width:150px; }
+	
+/* =============================================================================
+   _tpl_manage.php
+   ========================================================================== */ 
+
+	#gradient-style{font-size: 12px; width: 100%;	text-align: left;	border-collapse: collapse; margin-top:20px; margin-bottom:20px; }
+	#gradient-style th{	font-size: 16px;	font-weight: normal;	padding: 18px;	background: #cccccc;	border-top: 2px solid #ddd;	border-bottom: 1px solid #fff;	color: #efefef; font-weight:bold;}
+	#gradient-style td{	padding: 18px; 	border-bottom: 1px solid #fff;	color: #333;	border-top: 1px solid #666; }
+	#gradient-style tfoot tr td{	background: #e8edff;	font-size: 13px;	color: #333;}
+	
+	
+ 
+/* =============================================================================
+   _single.php
+   ========================================================================== */ 
+ 
+	.attachment { margin:5px; }
+	#PPTSinglePage-post .ratingblock { float:right;display:block; margin-right:10px; }
+	#tab1 hr { margin:0px; margin-top:10px;  }
+	.tags { margin-top:10px; }
+	.PackageIcon { float:right; }
+	.buttonbox { margin-top:10px; }
+	.buttonbox a { margin-right:10px; }
+	#PPTSinglePage-post #begin h1 { font-size: 25px;margin-top: -10px;color: #666;}
+	#PPTSinglePage-post #begin .frame { margin-top:-17px; }
+	#PPTSinglePage-post .entry { padding-top:10px; }
+	
+/* =============================================================================
+   _author.php
+   ========================================================================== */ 
+
+	#hor-zebra{	 	font-size: 12px;	width: 100%;	text-align: left;	border-collapse: collapse;}
+	#hor-zebra th{	font-size: 14px;	font-weight: normal;	padding: 10px 8px;	color: #444;}
+	#hor-zebra td{	padding: 8px;	color: #669;}
+	#hor-zebra .odd{	background: #e8edff; } 
+	
+/* =============================================================================
+   _tpl_add.php
+   ========================================================================== */ 
+	
+	.payicon { float:right; margin-right:0px; background: #fff url('images/buy_paypal.gif') no-repeat; width:200px; height:70px; }
+	.extrainfo { background:#efefef; border-top:2px solid #ddd; border-bottom: 2px solid #ddd; padding:10px; margin-top:30px; margin-right:20px;}	
+ 
+#steptable div.steps h4 { color:#CCCCCC; }
+
+
+
+
+
+	

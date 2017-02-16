@@ -1,0 +1,16 @@
+#anet-payment-form {
+	padding: 5px;
+}
+
+#anet-payment-form table {
+	margin: 10px;
+	border: solid 1px #ddd;
+}
+
+#anet-payment-form td {
+	padding: 5px;
+}
+
+#anet-payment-form table tr:nth-of-type(even) {
+	background: #f9f9f9;
+}

@@ -1,0 +1,22 @@
+.adsanity-random-options {
+	margin-bottom: 10px;
+}
+.adsanity-group-list {
+	height: 150px;
+	overflow: auto;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+	.adsanity-group-list label,
+	.adsanity-random-options label {
+		display: block;
+		margin: 10px 0;
+	}
+.adsanity-random-options label {
+	font-weight: bold;
+}
+.adsanity-random-options input[type="text"] {
+	display: block;
+	width: 100%;
+}

@@ -1,0 +1,100 @@
+# Copyright (C) 2016 AppThemes Updater
+# This file is distributed under the same license as the AppThemes Updater package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AppThemes Updater 1.4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/appthemes-"
+"updater\n"
+"POT-Creation-Date: 2016-08-11 05:20:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: appthemes-updater.php:67
+msgid "Settings"
+msgstr ""
+
+#: appthemes-updater.php:68
+msgid "Docs"
+msgstr ""
+
+#: appthemes-updater.php:69
+msgid "Support"
+msgstr ""
+
+#: templates/admin-page.php:3
+msgid "AppThemes Updater Settings"
+msgstr ""
+
+#: templates/admin-page.php:6
+msgid ""
+"Enter your unique API key. This can be found within your <a href=\"%1$s\" "
+"target=\"_blank\">AppThemes customer account</a>."
+msgstr ""
+
+#: templates/admin-page.php:16
+msgid "API Key:"
+msgstr ""
+
+#: templates/admin-page.php:26
+msgid "Save Settings"
+msgstr ""
+
+#: templates/api-key-notice.php:3
+msgid "The AppThemes Updater plugin is almost ready."
+msgstr ""
+
+#: templates/api-key-notice.php:4
+msgid ""
+"You must <a href=\"%1$s\">enter your API key</a> first before it will work."
+msgstr ""
+
+#: templates/check-for-updates.php:2
+msgid "Check for Latest Versions"
+msgstr ""
+
+#: templates/check-for-updates.php:3
+msgid ""
+"Manually check for updates (includes WordPress core, themes, plugins, "
+"AppThemes and Marketplace products)."
+msgstr ""
+
+#: templates/check-for-updates.php:4
+msgid "Check Now"
+msgstr ""
+
+#: updater-class.php:256
+msgid ""
+"<strong>IMPORTANT</strong>: If you have made any modifications to the "
+"AppThemes files, they will be overwritten if you proceed with the automatic "
+"update. Those with modified theme files should do a manual update instead. "
+"Visit your <a href=\"%1$s\" target=\"_blank\">customer dashboard</a> to "
+"download the latest version."
+msgstr ""
+
+#: updater-ui.php:18
+msgid "Saved Changes."
+msgstr ""
+
+#. #-#-#-#-#  appthemes-updater.pot (AppThemes Updater 1.4.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: updater-ui.php:70
+msgid "AppThemes Updater"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Automatically notifies you when AppThemes and Marketplace product updates "
+"are available."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "AppThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.appthemes.com"
+msgstr ""

@@ -1,0 +1,2 @@
+[01-Sep-2016 10:04:03 UTC] PHP Fatal error:  Call to undefined function get_blog_page_title() in /home/wyhomesearch/public_html/directory/wp-content/themes/vantage/index.php on line 7
+[23-Oct-2016 00:26:35 UTC] PHP Fatal error:  Call to undefined function get_blog_page_title() in /home/wyhomesearch/public_html/directory/wp-content/themes/vantage/index.php on line 7

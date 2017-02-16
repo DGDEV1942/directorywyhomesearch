@@ -1,0 +1,284 @@
+# Copyright (C) 2015 Stripe Payment Gateway
+# This file is distributed under the same license as the Stripe Payment Gateway package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Stripe Payment Gateway 1.1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/Stripe\n"
+"POT-Creation-Date: 2015-01-30 15:40:15+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: stripe-form.php:11
+msgid "Cardholder Name"
+msgstr ""
+
+#: stripe-form.php:17
+msgid "Card Number"
+msgstr ""
+
+#: stripe-form.php:23
+msgid "Expiration (MM/YYYY)"
+msgstr ""
+
+#: stripe-form.php:29
+msgid "CVC"
+msgstr ""
+
+#: stripe-form.php:37
+msgid "Billing Address"
+msgstr ""
+
+#: stripe-form.php:42
+msgid "Address Line 2"
+msgstr ""
+
+#: stripe-form.php:48
+msgid "City"
+msgstr ""
+
+#: stripe-form.php:52
+msgid "State"
+msgstr ""
+
+#: stripe-form.php:58
+msgid "Zip Code"
+msgstr ""
+
+#: stripe-form.php:66
+msgid "Submit"
+msgstr ""
+
+#: stripe-gateway.php:7
+msgid "Credit Card"
+msgstr ""
+
+#: stripe-gateway.php:8
+msgid "Stripe"
+msgstr ""
+
+#: stripe-gateway.php:22
+msgid "This card number is invalid."
+msgstr ""
+
+#: stripe-gateway.php:23
+msgid "This card number is incorrect."
+msgstr ""
+
+#: stripe-gateway.php:24
+msgid "This card's expiration month is invalid."
+msgstr ""
+
+#: stripe-gateway.php:25
+msgid "This card's expiration year is invalid."
+msgstr ""
+
+#: stripe-gateway.php:26
+msgid "This card's security code is invalid."
+msgstr ""
+
+#: stripe-gateway.php:27
+msgid "This card's security code is incorrect."
+msgstr ""
+
+#: stripe-gateway.php:28
+msgid "This card has expired."
+msgstr ""
+
+#: stripe-gateway.php:29
+msgid "This card has been declined."
+msgstr ""
+
+#: stripe-gateway.php:30
+msgid "There has been a server error. (invalid_amount)"
+msgstr ""
+
+#: stripe-gateway.php:31
+msgid "There has been a server error. (missing)"
+msgstr ""
+
+#: stripe-gateway.php:32
+msgid "There has been a server error. (duplicate_transaction)."
+msgstr ""
+
+#: stripe-gateway.php:33
+msgid "There has been a server error. (processing_error)"
+msgstr ""
+
+#: stripe-gateway.php:34
+msgid "The expiration month you have entered is invalid."
+msgstr ""
+
+#: stripe-gateway.php:35
+msgid "The expiration year you have entered is invalid."
+msgstr ""
+
+#: stripe-gateway.php:36
+msgid "The card number you have entered is invalid."
+msgstr ""
+
+#: stripe-gateway.php:37
+msgid "You must enter a cardholder name."
+msgstr ""
+
+#: stripe-gateway.php:38
+msgid "You must enter a billing address."
+msgstr ""
+
+#: stripe-gateway.php:39
+msgid "You must enter a billing state."
+msgstr ""
+
+#: stripe-gateway.php:40
+msgid "You must enter a billing city."
+msgstr ""
+
+#: stripe-gateway.php:41
+msgid "You must enter a billing zip code."
+msgstr ""
+
+#: stripe-gateway.php:51
+msgid "You are now being redirected to a secure page."
+msgstr ""
+
+#: stripe-gateway.php:85 stripe-gateway.php:152
+msgid "Stripe cannot process orders in the given currency '%s'"
+msgstr ""
+
+#: stripe-gateway.php:87 stripe-gateway.php:140 stripe-gateway.php:154
+msgid "Your order could not be completed. %s"
+msgstr ""
+
+#: stripe-gateway.php:201
+msgid "The CVC code given could not be validated."
+msgstr ""
+
+#: stripe-gateway.php:208
+msgid "The address given could not be validated."
+msgstr ""
+
+#: stripe-gateway.php:215
+msgid "The address zip given could not be validated."
+msgstr ""
+
+#: stripe-gateway.php:222
+msgid "You must provide a cardholder name."
+msgstr ""
+
+#: stripe-gateway.php:239
+msgid "Live Settings"
+msgstr ""
+
+#: stripe-gateway.php:242
+msgid "Live Mode"
+msgstr ""
+
+#: stripe-gateway.php:243
+msgid "Enable to start using your Live API Keys"
+msgstr ""
+
+#: stripe-gateway.php:248 stripe-gateway.php:267
+msgid "Secret Key"
+msgstr ""
+
+#: stripe-gateway.php:254 stripe-gateway.php:273
+msgid "Publishable Key"
+msgstr ""
+
+#: stripe-gateway.php:264
+msgid "Testing Settings"
+msgstr ""
+
+#: stripe-gateway.php:282
+msgid "Other Settings"
+msgstr ""
+
+#: stripe-gateway.php:285
+msgid "Stripe Checkout Form"
+msgstr ""
+
+#: stripe-gateway.php:287
+msgid "Uses the Stripe Checkout Form instead of a self-hosted form."
+msgstr ""
+
+#: stripe-gateway.php:291
+msgid "Secure Connection"
+msgstr ""
+
+#: stripe-gateway.php:293
+msgid "Force SSL Page"
+msgstr ""
+
+#: stripe-gateway.php:297
+msgid "Validate CVC code"
+msgstr ""
+
+#: stripe-gateway.php:299
+msgid "Refuse charges that report an invalid cvc code"
+msgstr ""
+
+#: stripe-gateway.php:303
+msgid "Require valid address/zip code"
+msgstr ""
+
+#: stripe-gateway.php:305
+msgid ""
+"Adds address and zipcode boxes to payment form. Refuses charges that report "
+"and invalid address or zipcode."
+msgstr ""
+
+#: stripe-gateway.php:309
+msgid "Require cardholder name"
+msgstr ""
+
+#: stripe-gateway.php:311
+msgid ""
+"Add cardholder name to form. Will not influence if a charge is accepted or "
+"denied."
+msgstr ""
+
+#: stripe-modal-form.php:4
+msgid "Please click here to get started."
+msgstr ""
+
+#: stripe-modal-form.php:15
+msgid "A window will open with instruction on how to proceed."
+msgstr ""
+
+#: stripe.php:36
+msgid "AppThemes Stripe Payment Gateway could not run."
+msgstr ""
+
+#: stripe.php:39
+msgid ""
+"AppThemes Stripe Payment Gateway does not support the current theme. Please "
+"use a compatible AppThemes Product."
+msgstr ""
+
+#: stripe.php:43
+msgid "AppThemes Stripe Payment Gateway requires the CURL PHP Extension."
+msgstr ""
+
+#: stripe.php:47
+msgid "AppThemes Stripe Payment Gateway requires the JSON PHP Extension."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Stripe Payment Gateway"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allows customers to use Stripe.com as a payment method in AppThemes Products."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "AppThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://appthemes.com"
+msgstr ""

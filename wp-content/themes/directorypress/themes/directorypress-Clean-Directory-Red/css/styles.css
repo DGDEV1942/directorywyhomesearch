@@ -1,0 +1,78 @@
+/*
+color: bd1616 / fff1f1
+*/
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+	a, h1, h2, h3, h4 { color:#bd1616; }
+
+/* =============================================================================
+   Header Styles
+   ========================================================================== */	 
+
+ 	body { margin-top:10px; background:#efefef url(../images/bg.png) repeat; color:#666; }
+	.wrapper { background:#fff; border:10px solid #fff; -webkit-box-shadow: 0 0 0px #cccccc; -moz-box-shadow: 0 0 0px #cccccc;  	-webkit-box-shadow: 0 0 0px #ccc;  	box-shadow:0px 0px 15px #ccc; margin-top:10px; } 	
+	#banner {margin-top: 0px; } 
+
+
+/* =============================================================================
+   Menu Styles
+   ========================================================================== */
+ 
+ 	.menu { background:#bd1616 url(../images/nav.gif) repeat-x;  }
+	.menu li { 	background:url(../images/menu_spacer.png) top right no-repeat; height:50px; }
+ 	#submenubar { margin-left:0px; }	 
+		#SearchForm {  margin-left:0px; text-align:center; }
+		#searchBox span { margin-left:10px; text-decoration:underline;}		 
+		#searchBox .searchBtn { margin:0px; border:0px; width:50px; height:29px; background:url(../images/search.gif) no-repeat; border:0px !important; padding:0px; float:left; cursor:pointer; } 	
+	ul.submenu_account { font-size:12px; text-transform:uppercase; }
+	ul.submenu_account li { font-size:12px; }
+	
+/* =============================================================================
+   Content Styles
+   ========================================================================== */
+	
+	#content { padding:0px; padding-top:10px; }
+	.middleSidebar h1 {   color:#bd1616; }
+ 
+	ul.tabs li { background:#fff url(../images/content_pane-gradient.gif) bottom left repeat-x; }
+ 
+/* =============================================================================
+   Footer Styles
+   ========================================================================== */
+	
+	#footer { background-image:none; background:#efefef;  color: #bd1616;  }
+	#footer p, #footer h3, .recentarticles a { color: #bd1616; }
+	.recentarticles a { text-decoration:underline; }
+	#fpages ul li a {color: #bd1616;}
+	
+/* =============================================================================
+   Slider Styles
+   ========================================================================== */
+ 
+	.myslider { margin-top:10px; }
+	#siteFeature {position:relative;  background:#efefef; border:1px solid #fff; margin-left:0px !important; width:960px !important; }
+	#siteFeature #tabContainer a:link, #siteFeature #tabContainer a:visited { background: transparent url(../images/_slider_inactive.png) no-repeat; }
+	#siteFeature #tabContainer a:hover{ background:#fff url(../images/_slider_inactive1.png) no-repeat; }
+	#siteFeature #tabContainer a h4 { color: #666; padding:10px 11px 0px 11px; }	
+	#siteFeature #tabContainer a.selected h4, #siteFeature #tabContainer a.selected p { color: #fff; text-shadow: 0px 1px 0px #666; }	
+	
+	#siteFeature #txtBoxContainer a { color:#fff;} 
+	#siteFeature h3 { color:#fff; }
+	
+/* =============================================================================
+   Item/ Object Box Styles
+   ========================================================================== */
+ 
+	.itembox { border: 1px solid #E2E2E2; clear: both;margin: 0px 0px 15px;padding: 0px;  }
+	.itembox h2, .itembox h1 {	margin: 0px 0;	 font-size:16px;     line-height:28px;     text-transform:uppercase;    min-height:40px;  margin-bottom:0px;     
+	border-bottom:solid 1px #e8e8e8;    padding:12px 20px 0 20px;    background:#efeeee url(../images/itemboxh2.gif) top left;    background-color:#efeeee;   background-repeat:repeat-x;	color:#444;}	
+ 
+ /* =============================================================================
+   MIS WEBSITE STYLES
+   ========================================================================== */
+	
+	#griddler hgroup.price { background: #bd1616 url(../images/nav.gif) repeat-x !important; border:1px solid #e4f1ff !important; }
+	#griddler .price h2 { border-top:0px !important; border-right:0px !important; border-left:0px !important; }
+	#steptable div.stepped h4 { color:#FFFFFF}

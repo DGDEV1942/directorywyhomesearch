@@ -1,0 +1,12 @@
+API Keys are now trimmed of whitespace before use.
+Payment form is now displayed below errors. 
+Added more client side error checking to avoid loosing form data to a server-side submit
+Add Name/CVC/Address checking to add additional security. These can be enabled through the Stripe settings.
+Plugin now errors and disables itself if the theme does not support AppThemes Payments
+Translation files are now loaded correctly
+Errors related to unsupported currencies now work correctly
+Errors related to invalid card numbers now work correctly
+Now using the Stripe Checkout Modal Window
+Now supports recurring payments
+Fixed translation string
+Correctly set API key when recurring is initialized

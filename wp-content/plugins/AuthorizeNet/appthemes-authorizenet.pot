@@ -1,0 +1,128 @@
+# Copyright (C) 2012 Authorize.Net Payment Gateway
+# This file is distributed under the same license as the Authorize.Net Payment Gateway package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Authorize.Net Payment Gateway 1.0.1-beta\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/AuthorizeNet\n"
+"POT-Creation-Date: 2012-09-27 20:28:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: an-dpm.php:20
+msgid "Credit Card"
+msgstr ""
+
+#: an-dpm.php:26
+msgid "Card Number"
+msgstr ""
+
+#: an-dpm.php:30
+msgid "CVC"
+msgstr ""
+
+#: an-dpm.php:34
+msgid "Expiration (MMYY)"
+msgstr ""
+
+#: an-dpm.php:37
+msgid "Submit Payment"
+msgstr ""
+
+#: an-gateway.php:9 an-gateway.php:10 an-gateway.php:152
+msgid "Authorize.Net"
+msgstr ""
+
+#: an-gateway.php:28
+msgid "You are now being redirected to a secure page."
+msgstr ""
+
+#: an-gateway.php:43
+msgid "You are now being redirected to Authorize.Net."
+msgstr ""
+
+#: an-gateway.php:76
+msgid "Return to %s"
+msgstr ""
+
+#: an-gateway.php:80
+msgid "Cancel"
+msgstr ""
+
+#: an-gateway.php:155
+msgid "API Login ID"
+msgstr ""
+
+#: an-gateway.php:160
+msgid "Transaction Key"
+msgstr ""
+
+#: an-gateway.php:165
+msgid "MD5 Secret Value"
+msgstr ""
+
+#: an-gateway.php:166
+msgid "Secret keyword used to secure transactions."
+msgstr ""
+
+#: an-gateway.php:174
+msgid "Sandbox Mode"
+msgstr ""
+
+#: an-gateway.php:177
+msgid "Enable"
+msgstr ""
+
+#: an-gateway.php:182
+msgid "Payment Form"
+msgstr ""
+
+#: an-gateway.php:185
+msgid "Location"
+msgstr ""
+
+#: an-gateway.php:191
+msgid "Authorize.Net Hosted"
+msgstr ""
+
+#: an-gateway.php:195
+msgid "Self-Hosted"
+msgstr ""
+
+#: an-gateway.php:196
+msgid "Your customers will use a payment form hosted on your site. This is not recommended unless your site uses SSL."
+msgstr ""
+
+#: an-gateway.php:201
+msgid "Secure Connection"
+msgstr ""
+
+#: an-gateway.php:203
+msgid "Force SSL Page"
+msgstr ""
+
+#: authorizenet.php:37
+msgid "AppThemes Authorize.Net Payment Gateway could not run."
+msgstr ""
+
+#: authorizenet.php:40
+msgid "AppThemes Authorize.Net Payment Gateway does not support the current theme. Please use a compatible AppThemes Product."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Authorize.Net Payment Gateway"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allows customers to use AuthorizeNet as a payment method in AppThemes Products."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "AppThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://appthemes.com"
+msgstr ""
